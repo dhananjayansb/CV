@@ -1,38 +1,17 @@
-window.addEventListener('resize', function(){
-    addRequiredClass();
-})
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
+hamburger.addEventListener("click", mobileMenu);
 
-function addRequiredClass() {
-    if (window.innerWidth < 860) {
-        document.body.classList.add('mobile')
-    } else {
-        document.body.classList.remove('mobile') 
-    }
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
 }
+const navLink = document.querySelectorAll(".nav-link");
 
-window.onload = addRequiredClass
+navLink.forEach(n => n.addEventListener("click", closeMenu));
 
-let hamburger = document.querySelector('.hamburger')
-let mobileNav = document.querySelector('.nav-list')
-
-let bars = document.querySelectorAll('.hamburger span')
-
-let isActive = false
-
-hamburger.addEventListener('click', function() {
-    mobileNav.classList.toggle('open')
-    if(!isActive) {
-        bars[0].style.transform = 'rotate(45deg)'
-        bars[1].style.opacity = '0'
-        bars[2].style.transform = 'rotate(-45deg)'
-        isActive = true
-    } else {
-        bars[0].style.transform = 'rotate(0deg)'
-        bars[1].style.opacity = '1'
-        bars[2].style.transform = 'rotate(0deg)'
-        isActive = false
-    }
-    
-
-})
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
