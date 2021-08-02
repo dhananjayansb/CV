@@ -406,3 +406,27 @@ body {
       border-color: transparent rgb(0, 086, 184) transparent transparent;
     }
     }
+/* ------------------------------------------Techstack------------------------------------------ */
+.game-board {
+  display: grid;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: 200px 200px 200px;
+  justify-content: center;
+}
+.box {
+background: rgb(255, 255, 255);
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(0, 0, 0);
+}
+.box h1{
+  font-size: 15px;
+  font-family: 'Lato';
+  font-weight: 600;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2%;
+}
