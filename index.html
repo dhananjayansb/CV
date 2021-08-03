@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.1/dist/css/foundation.min.css" integrity="sha256-1mcRjtAxlSjp6XJBgrBeeCORfBp/ppyX4tsvpQVCcpA= sha384-b5S5X654rX3Wo6z5/hnQ4GBmKuIJKMPwrJXn52ypjztlnDK2w9+9hSMBz/asy9Gw sha512-M1VveR2JGzpgWHb0elGqPTltHK3xbvu3Brgjfg4cg5ZNtyyApxw/45yHYsZ/rCVbfoO5MSZxB241wWq642jLtA==" crossorigin="anonymous">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.1/dist/js/foundation.min.js" integrity="sha256-WUKHnLrIrx8dew//IpSEmPN/NT3DGAEmIePQYIEJLLs= sha384-53StQWuVbn6figscdDC3xV00aYCPEz3srBdV/QGSXw3f19og3Tq2wTRe0vJqRTEO sha512-X9O+2f1ty1rzBJOC8AXBnuNUdyJg0m8xMKmbt9I3Vu/UOWmSg5zG+dtnje4wAZrKtkopz/PEDClHZ1LXx5IeOw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
         <title>DHANANJAYAN SB</title>
     </head>
 
@@ -53,7 +54,7 @@
             </header>
             <!-- home -->
             <div id=home class="introHeader">
-                <div class="text">
+                <div data-aos="slide-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false" class="text">
                     <strong>I am <span class="type"></span></strong>
                 </div>
                 <div class="scroll-down">
@@ -67,15 +68,15 @@
             <div id="about">
                 <div class="row">
                     <div class="large-12 medium-12 columns">
-                        <div  data-aos="flip-left" data-aos-offset="200"data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"data-aos-anchor-placement="top-center"
+                        <div  data-aos="flip-left" data-aos-offset="200" data-aos-delay="50"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="2000" class="sectionTitle">
                             <h1>About me</h1>
                             <h4>Let me introduce myself</h4>
                         </div>
-                        <div data-aos="flip-left" data-aos-offset="200"data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"data-aos-anchor-placement="top-center"
+                        <div data-aos="flip-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
                         id="about-lettre">
-                            <div id="profile-photos" data-aos="flip-left" data-aos-offset="200"data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"data-aos-anchor-placement="top-center"
+                            <div id="profile-photos" data-aos="flip-left" data-aos-offset="200" data-aos-delay="50" data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
                             data-aos-easing="ease-out-cubic"
                             data-aos-duration="2000" class="profile-photos">
                               <img
@@ -93,7 +94,7 @@
                             </p>
                             <p class="about-lettre">TECH ENTHUSIAST | FULL STACK DEV | WEB APP DEVELOPMENT | TEST AUTOMATION </p>
                         </div>
-                        <div data-aos="fade-right" data-aos-offset="200"data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"data-aos-anchor-placement="top-center"
+                        <div data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
                         class="buttons">
                             <div class="btncontainer">
                                 <a href="https://drive.google.com/file/d/1HgyobiyvdpZ--KL_BOtuiJTbZPCWlu23/view?usp=sharing" class="btn effect01" target="_blank"><span>Resume</span></a>
@@ -105,7 +106,7 @@
             <div id="education">
               <div class="row">
                 <div class="large-12 medium-12 columns">
-                    <div data-aos="flip-left" data-aos-offset="200"data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"data-aos-anchor-placement="top-center"
+                    <div data-aos="flip-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
                     class="sectionTitle">
                         <h1>Education</h1>
                         <h4>More about my past</h4>
@@ -144,44 +145,84 @@
             <div id="techstack">
               <div class="row">
                 <div class="large-12 medium-12 columns">
-                    <div  data-aos="flip-left" data-aos-offset="200"data-aos-delay="50" data-aos-duration="1000"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"data-aos-anchor-placement="top-center"
+                    <div id="particles-js"></div>
+                    <div  data-aos="flip-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
                      class="sectionTitle">
                       <h1>Tech Stack 🔥</h1>
                       <h4>These are the few Technologies , languages and frameworks that i use on a regular basis..</h4>
                     </div>
-                    <div id="about-lettre">
-                      <div class="game-board">
-                        <div data-aos="fade-up-left" data-aos-offset="200"data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"data-aos-anchor-placement="top-center"
-                        class="box">
-                          <i><img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/></i>
-                          <h1>HTML5</h1>
-                        </div>
-                        <div data-aos="fade-up-left" data-aos-offset="200"data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"data-aos-anchor-placement="top-center"
-                        class="box">
-                          <i><img  src="https://img.icons8.com/color/48/000000/css3.png"/></i>
-                          <h1>CSS</h1>
-                        </div>
-                        <div data-aos="fade-up-left" data-aos-offset="200"data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"data-aos-anchor-placement="top-center"
-                        class="box">
-                          <i><img src="https://img.icons8.com/fluent/48/000000/selenium-test-automation.png"/></i>
-                          <h1>Selenium</h1>
-                        </div>
-                        <div data-aos="fade-up-right" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"data-aos-anchor-placement="top-center"
-                        class="box">
-                          <i><img src="https://img.icons8.com/color/48/000000/bootstrap.png"/></i>
-                          <h1>Bootstrap</h1>
-                        </div>
-                        <div data-aos="fade-up-right" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"data-aos-anchor-placement="top-center"
-                        class="box">
-                          <i><img src="https://img.icons8.com/color/48/000000/javascript--v2.png"/></i>
-                          <h1>Javascript</h1>
-                        </div>
-                        <div data-aos="fade-up-right" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"data-aos-anchor-placement="top-center"
-                        class="box">
-                          <i><img src="https://img.icons8.com/fluent/48/000000/github.png"/></i>
-                          <h1>Git</h1>
-                        </div>
+                    <div class="game-board">
+                      <div data-aos="fade-up-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
+                      class="box">
+                        <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
                       </div>
+                      <div data-aos="fade-up-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
+                      class="box">
+                        <img  src="https://img.icons8.com/color/48/000000/css3.png"/>
+                      </div>
+                      <div data-aos="fade-up-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
+                      class="box">
+                        <img src="https://img.icons8.com/fluent/48/000000/selenium-test-automation.png"/>
+                      </div>
+                      <div data-aos="fade-up-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
+                      class="box">
+                        <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
+                      </div>
+                      <div data-aos="fade-up-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
+                      class="box">
+                        <img src="https://img.icons8.com/color/48/000000/javascript--v2.png"/>
+                      </div>
+                      <div data-aos="fade-up-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
+                      class="box">
+                        <img src="https://img.icons8.com/fluent/48/000000/github.png"/>
+                      </div>
+                      <div data-aos="fade-up-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
+                      class="box">
+                        <img src="https://img.icons8.com/color/50/000000/angularjs.png"/>
+                      </div>
+                      <div data-aos="fade-up-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
+                      class="box">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/ionic.png"/>
+                      </div>
+                      <div data-aos="fade-up-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
+                      class="box">
+                        <img src="https://img.icons8.com/fluent/48/000000/mysql-logo.png"/>
+                      </div>
+                      <div data-aos="fade-up-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
+                      class="box">
+                        <img src="https://img.icons8.com/color/48/000000/adobe-after-effects--v1.png"/>
+                      </div>
+                      <div data-aos="fade-up-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
+                      class="box">
+                        <img src="https://img.icons8.com/color/48/000000/adobe-photoshop.png"/>
+                      </div>
+                      <div data-aos="fade-up-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
+                      class="box">
+                        <img src="https://img.icons8.com/color/48/000000/adobe-illustrator--v1.png"/>
+                      </div>
+                      <div data-aos="fade-up-left"  data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
+                      class="box">
+                        <img src="https://img.icons8.com/nolan/64/adobe-media-encoder.png"/>
+                      </div>
+                      <div data-aos="fade-up-left"  data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
+                      class="box">
+                        <img src="https://img.icons8.com/color/48/000000/adobe-audition.png"/>
+                      </div>
+                      <div data-aos="fade-up-left"  data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
+                      class="box">
+                        <img src="https://img.icons8.com/color/48/000000/adobe-xd--v1.png"/>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="portfolio">
+              <div class="row">
+                <div class="large-12 medium-12 columns">
+                    <div  data-aos="flip-left"  data-aos-delay="50" data-aos-duration="500"data-aos-easing="ease-in-out"data-aos-mirror="true"data-aos-once="false"
+                     class="sectionTitle">
+                      <h1>Portfolio</h1>
+                      <h4>These are the few Technologies , languages and frameworks that i use on a regular basis..</h4>
                     </div>
                 </div>
               </div>
@@ -191,8 +232,11 @@
         <script type="text/javascript" src="./JS/loader.js"></script>
         <script type="text/javascript" src="./JS/navbar.js"></script>
         <script type="text/javascript" src="./JS/typed.js"></script>
-        <script> AOS.init();</script>
+        <script> AOS.init({startEvent: 'load',});</script>
         <script type="text/javascript" src="./JS/timeline.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="./JS/techstack.js"></script>
+        <script src="./JS/particles.js"></script>
     </body>
 
 </html>
