@@ -3,7 +3,7 @@ $(document).ready(function() {
 
   setTimeout(function() {
       $box.addClass('default');
-  }, 1700);
+  }, 1000);
 
   $('.js-toggle').click(function() {
     location.reload();
